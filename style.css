@@ -1,0 +1,55 @@
+html{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./GTA-6-Setting-Vice-City.png");
+    background-repeat: none;
+    background-size: cover;
+}
+
+.container{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.jaro{
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.timer{
+    text-align: center;
+    font-size: 150px;
+    font-family: "Jaro", sans-serif;
+    font-weight: 100;
+    color: white;
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #e60073, 0 0 8px #e60073, 0 0 10px #e60073, 0 0 12px #e60073, 0 0 14px #e60073;
+}
+
+.time-input{
+    padding: 10px;
+    font-size: 18px;
+    font-family: Jaro;
+    width: 65%;
+}
+
+.start-btn{
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #e60073;
+    font-family: Jaro;
+    width: 25%;
+}
+
+.start-btn:hover{
+    box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #e60073, 0 0 8px #e60073, 0 0 10px #e60073, 0 0 12px #e60073, 0 0 14px #e60073;
+}
+
